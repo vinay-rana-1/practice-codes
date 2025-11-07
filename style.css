@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #646fc6, #8a93a6);
+}
+
+.date {
+    display: block;
+    margin: 3rem auto;
+    width: 38rem;
+  ;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+ #erm {
+    width: 12rem;
+    height: auto;
+      transition: opacity 0.5s ease;
+}
+
+button {
+    position: relative;
+    margin: 2rem 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.yes {
+    background-color: #28a745;
+    color: white;
+}
+
+.no {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Button hover animation */
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
